@@ -181,3 +181,23 @@ halt_kurz
 
 ![alt text](https://statistik.stadt-zuerich.ch/modules/ogd_bspe/pics/vbz/Datenschema_faga21.PNG)
 
+looking at number of passengers per line/stop
+
+### the tables:
+
+**REISENDE** = *travelers*; main table, info about numbers of travelers
+
+tables to match\
+**LINIE** = *line*; info about line numbers\
+**TAGTYP** = *day type*; info about the validation of timetables\
+**HALTESTELLEN** = *stop names*; info about stop names\
+**GEFAESSGROESSE** = *vessel size* , contains information about vehicle capacity\
+
+the VBZ timetable is structured according to day types (Tagtyp)
+using the attributes "Tage_DTV" and "Tage_DVW" in REISENDE, average values can be calculated for weekdays (M-F) or for the entire week
+- DTV: average daily traffic
+- DWV: average weekday traffic
+
+---
+
+

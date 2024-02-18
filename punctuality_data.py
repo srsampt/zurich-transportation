@@ -20,11 +20,11 @@ wd = os.chdir("data")
 # https://data.stadt-zuerich.ch/dataset/vbz_fahrzeiten_ogd_2022
 
 #### Matching tables
-stop_positions = pd.read_csv("stop_positions.csv")      # GPS position of each stop point
-stop_names = pd.read_csv("stop_names.csv")              # full stop names
+stop_positions = pd.read_csv("punctuality-data/stop_positions.csv")      # GPS position of each stop point
+stop_names = pd.read_csv("punctuality-data/stop_names.csv")              # full stop names
 
 ### travel time data
-travel_times = pd.read_csv("travel_times.csv")
+travel_times = pd.read_csv("punctuality-data/travel_times.csv")
 
 
 #### Matching ###
